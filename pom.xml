@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>mon-projet</finalName>
+  <finalName>gory-mon-projet</finalName>
   </build>
 </project>
