@@ -1,30 +1,31 @@
 <settings>
 <servers>
   <server>
-    <id>projet-mon-projet</id>
+    <id>gory-mon-projet</id>
     <username>aws</username>
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
 </servers>
+
 <profiles>
   <profile>
-    <id>projet-mon-projet</id>
+    <id>gory-mon-projet</id>
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
     <repositories>
       <repository>
-        <id>projet-mon-projet</id>
-        <url>https://projet-842675983046.d.codeartifact.eu-north-1.amazonaws.com/maven/mon-projet/</url>
+        <id>gory-mon-projet</id>
+        <url>https://gory-842675983046.d.codeartifact.us-east-1.amazonaws.com/maven/mon-projet/</url>
       </repository>
     </repositories>
   </profile>
 </profiles>
 <mirrors>
   <mirror>
-    <id>projet-mon-projet</id>
-    <name>projet-mon-projet</name>
-    <url>https://projet-842675983046.d.codeartifact.eu-north-1.amazonaws.com/maven/mon-projet/</url>
+    <id>gory-mon-projet</id>
+    <name>gory-mon-projet</name>
+    <url>https://gory-842675983046.d.codeartifact.us-east-1.amazonaws.com/maven/mon-projet/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
